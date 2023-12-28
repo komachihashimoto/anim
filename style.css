@@ -22,9 +22,9 @@ body {
   font-size: 5em;
   transition: all 0.3;
   position: relative;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 0, 0, 0.7);
   z-index: 2;
-  text-shadow: 5px 5px 50px rgba(255, 255, 255, 0.8);
+  text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.8);
 }
 
 .block {
@@ -32,5 +32,5 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  box-shadow: 10px 10px 50px rgba(0,0,0,0.2);
+  box-shadow: inset 10px 10px 30px rgba(0, 0, 0, 0.8);
 }
