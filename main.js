@@ -20,7 +20,7 @@ const container = document.querySelector(".container");
         return anime.random(1,3);
       },
       background: function(){
-        let r = anime.random(0, 255);
+        let r = anime.random(50, 255);
         let g = 0;
         let b = 0;
         return `rgb(${r}, ${g}, ${b})`;
